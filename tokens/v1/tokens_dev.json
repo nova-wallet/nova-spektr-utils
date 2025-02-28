@@ -3524,6 +3524,31 @@
         ]
     },
     {
+        "name": "Should be included in scripts/data/assetsNameMap",
+        "precision": 18,
+        "icon": {
+            "monochrome": "https://raw.githubusercontent.com/novasamatech/nova-spektr-utils/main/icons/v2/assets/monochrome/Default.svg",
+            "colored": "https://raw.githubusercontent.com/novasamatech/nova-spektr-utils/main/icons/v2/assets/colored/Default.svg"
+        },
+        "symbol": "NEMO",
+        "isTestToken": false,
+        "chains": [
+            {
+                "chainId": "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
+                "name": "Acala",
+                "assetId": 16,
+                "assetSymbol": "NEMO",
+                "type": "orml",
+                "typeExtras": {
+                    "currencyIdScale": "0x02fa904c86b73fd041d6cc2aeed9e6ec0148fd51da",
+                    "currencyIdType": "AcalaPrimitivesCurrencyCurrencyId",
+                    "existentialDeposit": "0",
+                    "transfersEnabled": true
+                }
+            }
+        ]
+    },
+    {
         "name": "Centrifuge",
         "precision": 18,
         "priceId": "centrifuge",
@@ -4372,6 +4397,111 @@
         ]
     },
     {
+        "name": "Should be included in scripts/data/assetsNameMap",
+        "precision": 12,
+        "icon": {
+            "monochrome": "https://raw.githubusercontent.com/novasamatech/nova-spektr-utils/main/icons/v2/assets/monochrome/Default.svg",
+            "colored": "https://raw.githubusercontent.com/novasamatech/nova-spektr-utils/main/icons/v2/assets/colored/Default.svg"
+        },
+        "symbol": "BASTI",
+        "isTestToken": false,
+        "chains": [
+            {
+                "chainId": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+                "name": "Polkadot Asset Hub",
+                "assetId": 20,
+                "assetSymbol": "BASTI",
+                "type": "statemine",
+                "typeExtras": {
+                    "assetId": "22222015"
+                }
+            },
+            {
+                "chainId": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+                "name": "Hydration",
+                "assetId": 46,
+                "assetSymbol": "BASTI",
+                "type": "orml",
+                "typeExtras": {
+                    "currencyIdScale": "0x64430f00",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "1",
+                    "transfersEnabled": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "Should be included in scripts/data/assetsNameMap",
+        "precision": 12,
+        "icon": {
+            "monochrome": "https://raw.githubusercontent.com/novasamatech/nova-spektr-utils/main/icons/v2/assets/monochrome/DAMN.svg",
+            "colored": "https://raw.githubusercontent.com/novasamatech/nova-spektr-utils/main/icons/v2/assets/colored/DAMN.svg"
+        },
+        "symbol": "DAMN",
+        "isTestToken": false,
+        "chains": [
+            {
+                "chainId": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+                "name": "Polkadot Asset Hub",
+                "assetId": 21,
+                "assetSymbol": "DAMN",
+                "type": "statemine",
+                "typeExtras": {
+                    "assetId": "22222012"
+                }
+            },
+            {
+                "chainId": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+                "name": "Hydration",
+                "assetId": 47,
+                "assetSymbol": "DAMN",
+                "type": "orml",
+                "typeExtras": {
+                    "currencyIdScale": "0x5e430f00",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "1",
+                    "transfersEnabled": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "Bill Coin",
+        "precision": 12,
+        "icon": {
+            "monochrome": "https://raw.githubusercontent.com/novasamatech/nova-spektr-utils/main/icons/v2/assets/monochrome/BILLCOIN.svg",
+            "colored": "https://raw.githubusercontent.com/novasamatech/nova-spektr-utils/main/icons/v2/assets/colored/BILLCOIN.svg"
+        },
+        "symbol": "BILLCOIN",
+        "isTestToken": false,
+        "chains": [
+            {
+                "chainId": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+                "name": "Polkadot Asset Hub",
+                "assetId": 22,
+                "assetSymbol": "BILLCOIN",
+                "type": "statemine",
+                "typeExtras": {
+                    "assetId": "50000075"
+                }
+            },
+            {
+                "chainId": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+                "name": "Hydration",
+                "assetId": 51,
+                "assetSymbol": "BILLCOIN",
+                "type": "orml",
+                "typeExtras": {
+                    "currencyIdScale": "0x3a450f00",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "1",
+                    "transfersEnabled": true
+                }
+            }
+        ]
+    },
+    {
         "name": "Zeitgeist",
         "precision": 10,
         "priceId": "zeitgeist",
@@ -4657,6 +4787,81 @@
         ]
     },
     {
+        "name": "Should be included in scripts/data/assetsNameMap",
+        "precision": 9,
+        "icon": {
+            "monochrome": "https://raw.githubusercontent.com/novasamatech/nova-spektr-utils/main/icons/v2/assets/monochrome/SOL-Wormhole.svg",
+            "colored": "https://raw.githubusercontent.com/novasamatech/nova-spektr-utils/main/icons/v2/assets/colored/SOL-Wormhole.svg"
+        },
+        "symbol": "SOL-Wormhole",
+        "isTestToken": false,
+        "chains": [
+            {
+                "chainId": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+                "name": "Hydration",
+                "assetId": 48,
+                "assetSymbol": "SOL-Wormhole",
+                "type": "orml",
+                "typeExtras": {
+                    "currencyIdScale": "0x30450f00",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "46339",
+                    "transfersEnabled": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "Should be included in scripts/data/assetsNameMap",
+        "precision": 9,
+        "icon": {
+            "monochrome": "https://raw.githubusercontent.com/novasamatech/nova-spektr-utils/main/icons/v2/assets/monochrome/SUI-Wormhole.svg",
+            "colored": "https://raw.githubusercontent.com/novasamatech/nova-spektr-utils/main/icons/v2/assets/colored/SUI-Wormhole.svg"
+        },
+        "symbol": "SUI-Wormhole",
+        "isTestToken": false,
+        "chains": [
+            {
+                "chainId": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+                "name": "Hydration",
+                "assetId": 49,
+                "assetSymbol": "SUI-Wormhole",
+                "type": "orml",
+                "typeExtras": {
+                    "currencyIdScale": "0x31450f00",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "2652520",
+                    "transfersEnabled": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "Should be included in scripts/data/assetsNameMap",
+        "precision": 18,
+        "icon": {
+            "monochrome": "https://raw.githubusercontent.com/novasamatech/nova-spektr-utils/main/icons/v2/assets/monochrome/tBTC.svg",
+            "colored": "https://raw.githubusercontent.com/novasamatech/nova-spektr-utils/main/icons/v2/assets/colored/tBTC.svg"
+        },
+        "symbol": "tBTC",
+        "isTestToken": false,
+        "chains": [
+            {
+                "chainId": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+                "name": "Hydration",
+                "assetId": 50,
+                "assetSymbol": "tBTC",
+                "type": "orml",
+                "typeExtras": {
+                    "currencyIdScale": "0x3d450f00",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "106803374987",
+                    "transfersEnabled": true
+                }
+            }
+        ]
+    },
+    {
         "name": "Interlay DOT",
         "precision": 10,
         "icon": {
@@ -4752,21 +4957,21 @@
         ]
     },
     {
-        "name": "Litentry",
+        "name": "Should be included in scripts/data/assetsNameMap",
         "precision": 18,
-        "priceId": "litentry",
+        "priceId": "heima",
         "icon": {
-            "monochrome": "https://raw.githubusercontent.com/novasamatech/nova-spektr-utils/main/icons/v2/assets/monochrome/LIT.svg",
-            "colored": "https://raw.githubusercontent.com/novasamatech/nova-spektr-utils/main/icons/v2/assets/colored/LIT.svg"
+            "monochrome": "https://raw.githubusercontent.com/novasamatech/nova-spektr-utils/main/icons/v2/assets/monochrome/HEI.svg",
+            "colored": "https://raw.githubusercontent.com/novasamatech/nova-spektr-utils/main/icons/v2/assets/colored/HEI.svg"
         },
-        "symbol": "LIT",
+        "symbol": "HEI",
         "isTestToken": false,
         "chains": [
             {
                 "chainId": "0x2fc8bb6ed7c0051bdcf4866c322ed32b6276572713607e3297ccf411b8f14aa9",
-                "name": "Litentry",
+                "name": "Heima",
                 "assetId": 0,
-                "assetSymbol": "LIT",
+                "assetSymbol": "HEI",
                 "type": "native"
             }
         ]
